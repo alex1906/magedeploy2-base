@@ -3,7 +3,7 @@ node {
     env.PWD = pwd()
 
     // Tools Config
-    def phpBin = "/usr/local/bin/php"
+    def phpBin = "/usr/bin/php"
     def roboBin = "${phpBin} ./vendor/bin/robo"
     def deployerBin = "${phpBin} ./vendor/bin/dep"
 
